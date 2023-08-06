@@ -5,7 +5,7 @@ Rust Enum
 - Rust enumeration data type allows you to select a value from a list of possible variants.
 
 Syntax/Declaration
-................................................................
+
 enum enum_name {
     variant1,
     variant2,
@@ -13,7 +13,7 @@ enum enum_name {
 }
 
 Example
-................................................................
+
 enum Status {
     Pending,
     Inprogress,
