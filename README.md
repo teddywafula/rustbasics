@@ -39,9 +39,9 @@ if variable condition {
 let variable = value
 
 let result = match variable {
-    value1 => return result,
-    value2 => return result2,
-    _ => return defaultValue
+    value1 => result,
+    value2 => result2,
+    _ => defaultValue
 };
 
 print result
